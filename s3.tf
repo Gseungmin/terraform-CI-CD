@@ -1,7 +1,7 @@
 resource "aws_s3_bucket" "s3" {
-  bucket = "ji-cicd-test-again"
+  bucket = "ji-cicd-test"
 
   tags = {
-    Name        = "cicd-test"
+    Name        = "cicd-test-change"
   }
 }
